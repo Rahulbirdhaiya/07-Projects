@@ -21,3 +21,6 @@ An application that generates an unlimited number of random colors. Users can ex
 
 ### Project 7: Basic Calculator
 A simple application that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
+
+## License Added
+MIT license
