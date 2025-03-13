@@ -6,6 +6,7 @@ html {
     width: 300px;
     max-width: 750px;
     min-width: 480px;
+    height: 100dvh;
     margin: 0 auto;
     background-color: #212121;
   }
@@ -72,10 +73,15 @@ html {
     box-sizing: border-box;
     text-align: center;
     width: 450px;
-    height: 550px;
+    height: auto;
     background-color: #474747;
     color: #fff;
     font-size: 25px;
+    padding-block: 10px;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   h1 {
@@ -90,3 +96,44 @@ html {
     text-align: center;
   }
   
+  #newGame{
+    color: crimson;
+  }
+  #newGame:hover {
+    cursor: pointer;
+    color: cadetblue;
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+      width: 100dvw;
+      min-width: 0;
+      padding: 10px;
+      height: 100dvh;
+    }
+
+    button, #subt, #guessField {
+      width: 95dvw;
+      font-size: 20px;
+    }
+
+    #guess {
+      font-size: 40px;
+    }
+
+    #wrapper {
+      width: 100dvw;
+      padding-block: 10px;
+      margin: 0 auto; /* Center the wrapper container */
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
